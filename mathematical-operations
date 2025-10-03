@@ -1,4 +1,4 @@
-//C code for mathemaical operations.
+//C code for mathemaical operations. 
 
 #include <stdio.h>
 int main(){

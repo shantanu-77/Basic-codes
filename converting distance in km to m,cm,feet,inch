@@ -1,4 +1,4 @@
-// convert km into cm, m, feet, inch. 
+//c code to convert km into cm, m, feet, inch. 
 #include <stdio.h>
 
 int main() 

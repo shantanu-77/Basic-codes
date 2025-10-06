@@ -1,1 +1,20 @@
+// convert km into cm, m, feet, inch. 
+#include <stdio.h>
 
+int main() 
+{
+    // Write C code here
+ int s;
+ int m, cm;
+ float inch, feet;
+    printf("write value of distance s in KM: ");
+    scanf ("%d", &s);
+  m = s*1000;
+  cm = s*100000;
+feet = s*3280.84;
+  inch = feet * 12;
+  printf("value of s in m is:%d\nand value of s on CM is:%d\n.", m, cm);
+    printf ("the value of s in feet is:%f\nand value of s in inch is:%f", feet, inch);
+
+    return 0;
+}

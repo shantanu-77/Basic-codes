@@ -1,0 +1,32 @@
+// Code for taking two character, then entering character value and then do all 4 mathematical operations...
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+char p, q;
+int a, b;
+
+printf("enter character: ");
+scanf(" %c", &p);
+
+printf("the value of %c:", p);
+scanf("%d", &a);
+
+printf("enter other character:");
+scanf(" %c", &q);
+
+printf("the value of %c:", q);
+scanf("%d", &b);
+
+printf("the sum of %c and %c is:%d\n",p,q,a+b);
+
+printf("the minus of %c and %c is:%d\n",p,q,a-b);
+
+printf("the multiple of %c and %c is:%d\n",p,q,a*b);
+
+printf("the quotient of division of %c and %c is:%d\n",p,q,a/b);
+
+printf("the remainder of division of %c and %c is:%d",p,q,a%b);
+ 
+    return 0;
+}

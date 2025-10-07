@@ -1,9 +1,9 @@
 // Code for taking two character, then entering character value and then do all 4 mathematical operations...
 
 #include <stdio.h>
-
 int main() {
-    // Write C code here
+
+
 char p, q;
 int a, b;
 

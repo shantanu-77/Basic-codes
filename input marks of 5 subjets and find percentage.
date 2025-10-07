@@ -1,0 +1,34 @@
+//enter marks if 5 subjects of a student input through user, then calculate total marks and also his percentage.
+
+#include <stdio.h>
+int main() {
+    // Write C code here
+ int sub1, sub2, sub3, sub4, sub5;
+ 
+  printf("enter value of sub1: ");
+    scanf (" %d", &sub1);
+    
+  printf("enter value of sub2: ");
+    scanf (" %d", &sub2);
+    
+  printf("enter value of sub3: ");
+    scanf (" %d", &sub3);
+    
+  printf("enter value of sub4: ");
+    scanf (" %d", &sub4);
+    
+printf("enter value of sub5: ");
+    scanf (" %d", &sub5);
+    
+  int sum;
+  float percent;
+  
+  sum = sub1+sub2+sub3+sub4+sub5;
+  percent = ((float)sum*100)/500; 
+  //use explicit type casting to get decimal value of percentage, since sum is an integer it will operate integral division and will show only integral percentage.
+  
+  printf("the total marks obtained by the student in all 5 subject is: %d\n", sum);
+  printf("the obtained percentage for the student is: %f", percent);
+    return 0;
+}
+

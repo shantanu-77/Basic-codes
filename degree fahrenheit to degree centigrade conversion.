@@ -1,0 +1,14 @@
+//take input of temperature degree FAHRENHEIT then convert it in degree CENTIGRADE. 
+
+#include <stdio.h>
+int main() {
+    
+  float C, F;
+  printf("enter value of temperature in Fahrenheit:");
+  scanf(" %f", &F);
+  
+  C = ((F-32)*5)/9;
+  printf ("the temperature in Centigrade after converting from Fahrenheit is: %f", C);
+ 
+    return 0;
+}

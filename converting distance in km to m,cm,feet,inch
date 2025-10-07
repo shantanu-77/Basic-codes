@@ -1,10 +1,8 @@
 //c code to convert km into cm, m, feet, inch. 
 
 #include <stdio.h>
+int main() {
 
-int main() 
-{
-    // Write C code here
  int s;
  int m, cm;
  float inch, feet;

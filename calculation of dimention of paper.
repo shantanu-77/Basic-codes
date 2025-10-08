@@ -1,0 +1,38 @@
+// paper size calculation A0-A10, where with each step initial breadth become length and initial length get halves and become breadth of new paper. initially it is given that 
+A0 = 1189 × 841 then A1 = 841 × 594. Remember that only integer value is taken, to get answer in decimal use float.
+  
+#include <stdio.h>
+int main() {
+    
+ int l, b;
+ int A0, A1, A2, A3, A4, A5, A6, A7, A8;
+    // Write C code here
+ printf("enter value of l:");
+ scanf (" %d", &l);
+ printf ("enter value of b:");
+ scanf(" %d", &b);
+ printf ("dimension of A0 is %d × %d\n", l, b);
+ int p=l, q=b;
+ p= p/2;
+ printf("dimension of A1 is %d × %d\n", q, p);
+ q= q/2;
+ printf("dimension of A2 is %d × %d\n", p, q);
+ p=p/2;
+ printf("dimension of A3 is %d × %d\n", q, p);
+ q=q/2;
+ printf("dimension of A4 is %d × %d\n", p, q);
+ p=p/2;
+ printf("dimension of A5 is %d × %d\n", q, p);
+ q=q/2;
+ printf("dimension of A6 is %d × %d\n", p, q);
+ p=p/2;
+ printf("dimension of A7 is %d × %d\n", q, p);
+ q=q/2;
+ printf("dimension of A8 is %d × %d\n", p, q);
+ p=p/2;
+ printf("dimension of A9 is %d × %d\n", q, p);
+ q=q/2;
+ printf("dimension of A10 is %d × %d", p, q);
+    
+    return 0;
+}

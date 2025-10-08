@@ -1,0 +1,25 @@
+//taking input of radius, length and breadth of the circle and rectangle respectivly. Then finding area and perimeter for both of them.
+
+#include <stdio.h>
+int main() {
+
+  int l, b, r;\
+  printf("enter value of l: ");
+  scanf (" %d", &l);
+  printf("enter value of b: ");
+  scanf (" %d", &b);
+  printf("enter value of r: ");
+  scanf (" %d", &r);
+  
+  int Pr, Ar, Pc, Ac; //can use any either int or float or type casting.
+  Pr = 2*(l+b);
+  Ar = l*b;
+  Pc = (2*22*r)/7;
+  Ac = (22*r*r)/7;
+  printf("the Perimeter of rectangle is: %d\n", Pr);
+  printf("the Perimeter of circle is: %d\n", Pc);
+  printf("the Area of rectangle is: %d\n", Ar);
+  printf("the Area of circle is: %d\n", Ac);
+  
+  return 0;
+}
